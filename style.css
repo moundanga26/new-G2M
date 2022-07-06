@@ -1,0 +1,729 @@
+@import url('./font.css');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: Poppins;
+}
+
+.service{
+    text-transform: uppercase;
+    color: #ec882c;
+}
+
+
+/* container 1 */
+
+
+.container1 {
+    background-image: url('./image/pattern.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 0 0 2% 2%;
+}
+
+.boxe1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 100%;
+}
+
+.boxe1 .logo {
+    flex-basis: 10%;
+}
+
+.bar {
+    flex-basis: 30%;
+}
+ul li{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+}
+
+.bar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar ul li a {
+    color: whitesmoke;
+}
+
+.bar ul li a:hover {
+    transition: 1s;
+    color: rgb(216, 24, 174);
+}
+.iconify{
+    display: none;
+}
+
+.end {
+    flex-basis: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.end .btn {
+    border: 0.9px solid whitesmoke;
+    color: whitesmoke;
+    background-color: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 7px 40px;
+    border-radius: 5px;
+}
+
+.end .btn:hover {
+    transition: 0.5s;
+    background-color: rgb(216, 24, 174);
+    border: none;
+}
+
+.boxe2 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-top: 4%;
+}
+
+.boxe2 .left {
+    flex-basis: 50%;
+    color: whitesmoke;
+}
+
+.left .service {
+    text-transform: uppercase;
+}
+
+.boxe2 .left h1 {
+    font-size: 46px;
+    margin: 2% auto;
+}
+
+.boxe2 .left .text {
+    font-size: 15px;
+    width: 75%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.boxe2 .action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.boxe2 .action .btn {
+    background-color: rgb(216, 24, 174);
+    color: whitesmoke;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 7px 22px;
+    border-radius: 5px;
+    border: none;
+}
+.btn1{
+    background-color: rgb(216, 24, 174);
+    color: whitesmoke;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 7px 22px;
+    border-radius: 5px;
+    border: none;
+}
+.boxe2 .action .play {
+    cursor: pointer;
+    margin-left: 11%;
+}
+
+.boxe2 .action .media{
+    display: flex;
+    align-items: center;
+    flex-basis: 50%;
+    position: relative;
+}
+
+.boxe2 .action .media .icon{
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    position: absolute;
+    left: -5.2%
+}
+
+.boxe2 .right {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxe2 .right .banner {
+    width: 66%;
+}
+
+/*la partie 1 du site */
+
+
+.part1{
+    height: 100vh;
+    width: 100%;
+}
+.part-end{
+    width: 40%;
+    height: 50vh;
+    margin-top: 10%;
+}
+.all1{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    
+}
+.part-start{
+    width: 40%;
+    margin-top: 8%;
+}
+
+/*la partie ce que nous proposons*/
+
+.all2{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    justify-content: space-around;
+}
+h1{
+    font-size: 50px;
+}
+.part2-start{
+    margin-right: 20vw;
+}
+
+
+/* la partie 3 icones en mode section */
+
+.section3{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+}
+.top-mobile{
+    display: none;
+}
+.bottom{
+    display: flex;
+    justify-content:space-around ;
+    margin-top: 80px;
+}
+.box-cercle{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-around;
+    
+    
+}
+.box-cercle:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 24px 48px rgba(0, 2, 30, 0.0813519);
+    border-radius: 16px;
+}
+.lorem{
+    font-size: 10px;
+    margin-left: 20px;
+   
+}
+.circle{
+    height: 35px;
+}
+.title{
+    font-size: 15px;
+    margin-left: 20px;
+
+}
+.top1{
+    margin-right: 80px;
+}
+.orang{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 6px solid rgba(247, 138, 34, 0.64);
+    background-color: transparent;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rose{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 6px solid rgba(224, 39, 128, 0.72);
+    background-color: transparent;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bleu{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 6px solid  #B4C7E7;
+    background-color: transparent;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* nous partons a la partie autre services a valeur  ajoutee */
+
+.all3{
+    height: 70vh;
+    width: 100%;
+}
+.colunm1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #B4C7E7;
+}
+.colunm2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #ec882c;
+}
+.colunm3{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid rgb(216, 24, 174);
+}
+.colunm4{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #B4C7E7;
+}
+.colunm5{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #548ef3;
+}
+.colunm6{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #ec882c;
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.ecrit1{
+    margin-left: 10px;
+}
+.all3 .service{
+    margin-left: 110px;
+    margin-top: 100px;
+}
+.colunm{
+    display: flex;
+}
+.mobile{
+    display: none;
+}
+/*la partie mission de G2M*/
+
+.all4{
+    width: 100%;
+    height: 70vh;
+    background-color: #ECEDF3;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left{
+    width: 40%;
+    height: 40vh;
+    margin-top: 50px;
+}
+.right{
+    width:40%;
+    height: 65vh;
+
+}
+.white{
+    height: 250px;
+    width: 320px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 65px 5px 1px 30px #DDDFEB;
+    margin-top: 50px;
+    margin-left: 30px;
+    
+}
+.cooper img{
+    clip-path: circle();
+    margin-top: 160px;
+    margin-left: 20px;
+
+}
+.cooper .text{
+    margin-left: 20px;
+}
+/* la partie all5 le caro et quelque ecrit Ce que nous avons déja fait*/
+
+
+.all5{
+    width: 100%;
+    height: 80vh;
+    border-radius: 0px 0px 10px;
+    background-color: #ECEDF3;
+}
+.all5 .service {
+    margin-left: 60px;
+}
+.all5 h1{
+    margin-left: 60px;
+}
+.slide{
+    float: left;
+    
+}
+.slider{
+    width: 500px;
+    overflow: hidden;
+    margin: 10px auto;
+    
+}
+.slides{
+    width: calc(500px * 3);
+    animation: glisse 5s infinite;
+}
+@keyframes glisse{
+    0%{
+        transform: translateX(0);
+    }
+    33%{
+        transform: translateX(-500px);
+    }
+    66%{
+        transform: translateX(-1000px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+/* le responsive du site*/
+
+
+@media screen and (min-width:1001px){
+    .menu{
+        display: none;
+    }
+    
+    
+}
+
+@media screen and (max-width:1000px) {
+    .iconify{
+        display: flex;
+        height: 40px;
+        width: 40px;
+    }
+    .bar{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .boxe2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .right .banner{
+        height: 200px;
+        width: 240px;
+    }
+    .right1 .banner{
+        width: 350px;
+        height: 240px;
+    }
+}
+
+
+
+@media screen and (min-width:300px) and (max-width:600px){
+    .container1 .boxe2 .left .text{
+        line-height: 20px;
+    }
+    .part1 .all1 .part-end .text{
+        line-height: 30px;
+    }
+    .part-end{
+        margin-top: 30vw;
+    }
+    .all1{
+        display: block;
+        
+    }
+    .image1{
+        margin-left: 15vw;
+      
+    }
+    .image1{
+        height: 100px;
+        width: 100px;
+    }
+
+    .part-start{
+        height: 30vh;
+        margin-right: 10vw;
+    }
+    .part-end{
+        width: 80%;
+        height: 30vh;
+        margin-left: 10vw;
+    }
+    .part1{
+        height: 70vh;
+    }
+    
+    
+
+}
+@media screen and (max-width:1200px){
+    .image1 img{
+        width: 300px;
+        height: 300px;
+    }
+
+}
+@media screen and (max-width:400px){
+    .part-end{
+        margin-top: 30vw;
+    }
+   
+}
+
+/*ce que nous proposons partie en responsive*/
+
+@media screen and (max-width:600px) {
+    .all2{
+        display: block;
+        margin-top: 80%;
+    }
+    .part2-end .text{
+        line-height: 30px;
+        margin-left: 10vw;
+    }
+    .all2 .part2-start h1{
+        margin-left: 10vw;
+    }
+    .part2-start .service{
+        text-align: justify;
+        margin-left: 10vw;
+        line-height: 20px;
+        width: 10%;
+    }
+
+}
+@media screen and (max-width:387px){
+    .all2  {
+        margin-top: 400px;
+    }
+}
+@media screen and (max-width:390px){
+    .all2  {
+        margin-top: 400px;
+    }
+}
+@media screen and (max-width:375px){
+    .all2  {
+        margin-top: 500px;
+    }
+
+
+}
+/* la partie responsive des 3 icones */
+
+@media screen and (max-width:600px){
+    .bottom{
+        display: block;
+    }
+
+}
+/* nous partons a la partie autre services a valeur  ajoutee responsive */
+@media screen and (max-width:600px){
+    .all3 .service{
+        display: none;
+    }
+    .flex1{
+        display: none;
+    }
+    .flex2{
+        display: none;
+    }
+    .colunm{
+        display: none;
+    }
+    .all3{
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .colunm1{
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #B4C7E7;
+    }
+    .colunm2{
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:2px solid #ec882c;
+    }
+    .colunm3{
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:2px solid rgb(216, 24, 174);
+    }
+    .colunm4{
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #B4C7E7;
+    }
+    .colunm5{
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #548ef3;
+    }
+    .colunm6{
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:2px solid #ec882c;
+    }
+    .flex3{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex4{
+        display: flex;
+        flex-direction: column; 
+    }
+    .ecrit1{
+        margin-left: 10px;
+    }
+    .all3 .service{
+        margin-left: 110px;
+        margin-top: 100px;
+    }
+    .colunmA{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+    .mobile{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
