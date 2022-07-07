@@ -420,9 +420,13 @@ h1{
     margin-left: 30px;
     
 }
+.cooper .iconify{
+    margin-top: 90px;
+    background-color: #548ef3;
+}
 .cooper img{
     clip-path: circle();
-    margin-top: 160px;
+    margin-top: 10px;
     margin-left: 20px;
 
 }
@@ -473,6 +477,15 @@ h1{
     }
 }
 
+/* new part starts section6 total */
+
+
+.section6{
+    height: 70vh;
+    width: 100%;
+    background-color: aqua;
+}
+
 
 
 
@@ -505,8 +518,8 @@ h1{
         flex-direction: column-reverse;
     }
     .right .banner{
-        height: 200px;
-        width: 240px;
+        height: 300px;
+        width: 340px;
     }
     .right1 .banner{
         width: 350px;
@@ -720,6 +733,30 @@ h1{
         display: flex;
         justify-content: space-around;
         margin-top: 50px;
+    }
+}
+/* la partie mission de G2M en mode mobile */
+@media screen and (max-width:600px){
+    .all4{
+        display: block;
+    }
+    .all4 .left .text{
+        line-height: 20px;  
+      }
+      .all4 .right{
+        margin-top: 100px;
+      }
+      .all5 {
+        margin-top: 300px;
+      }
+      .all4 .right{
+        margin-top: 200px;
+      }
+      
+}
+@media screen and (max-width:800px){
+    .all4 .right{
+        margin-right: 100px;
     }
 }
 
