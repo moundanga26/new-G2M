@@ -108,13 +108,15 @@ li{
 .boxe2 .left h1 {
     font-size: 46px;
     margin: 2% auto;
+    width: 100%;
 }
 
 .boxe2 .left .text {
     font-size: 15px;
-    width: 75%;
+    width: 100%;
     margin-top: 4%;
     margin-bottom: 4%;
+    
 }
 
 .boxe2 .action {
@@ -170,7 +172,7 @@ li{
 }
 
 .boxe2 .right .banner {
-    width: 66%;
+    width: 100%;
 }
 
 /*la partie 1 du site */
@@ -401,12 +403,12 @@ h1{
 }
 
 .left{
-    width: 40%;
+    width: 50%;
     height: 40vh;
     margin-top: 50px;
 }
 .right{
-    width:40%;
+    width:50%;
     height: 65vh;
 
 }
@@ -483,7 +485,15 @@ h1{
 .section6{
     height: 70vh;
     width: 100%;
-    background-color: aqua;
+}
+.personne img{
+    border-radius: 30px;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    width: 85%;
 }
 
 
@@ -517,14 +527,14 @@ h1{
         display: flex;
         flex-direction: column-reverse;
     }
-    .right .banner{
-        height: 300px;
-        width: 340px;
-    }
     .right1 .banner{
         width: 350px;
         height: 240px;
     }
+    .boxe2 .action .play{
+        width: 300px;
+    }
+
 }
 
 
@@ -532,6 +542,7 @@ h1{
 @media screen and (min-width:300px) and (max-width:600px){
     .container1 .boxe2 .left .text{
         line-height: 20px;
+        width: 100%;
     }
     .part1 .all1 .part-end .text{
         line-height: 30px;
@@ -564,6 +575,9 @@ h1{
     .part1{
         height: 70vh;
     }
+    .total{
+        display: block;
+    }
     
     
 
@@ -573,12 +587,26 @@ h1{
         width: 300px;
         height: 300px;
     }
-
+    
 }
 @media screen and (max-width:400px){
     .part-end{
         margin-top: 30vw;
     }
+    .white{
+        height: 250px;
+        width: 200px;
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        box-shadow: 65px 5px 1px 30px #DDDFEB;
+        margin-top: 300px;
+        margin-left: 30px;
+
+    }
+    .all4{
+        height: 100vh;
+    }
+  
    
 }
 
@@ -602,7 +630,21 @@ h1{
         line-height: 20px;
         width: 10%;
     }
+    .boxe2 .right .banner{
+        margin-left: 200px;
+    }
 
+}
+
+
+@media screen and (max-width:550px){
+    .boxe2 .left h1{
+        width: 100%;
+    }
+    .left {
+        width: 100%;
+        height: 10vh;
+    }
 }
 @media screen and (max-width:387px){
     .all2  {
@@ -617,6 +659,9 @@ h1{
 @media screen and (max-width:375px){
     .all2  {
         margin-top: 500px;
+    }
+    .personne img{
+        margin-left: 40px;
     }
 
 
@@ -739,6 +784,7 @@ h1{
 @media screen and (max-width:600px){
     .all4{
         display: block;
+        margin-top: 120px;
     }
     .all4 .left .text{
         line-height: 20px;  
@@ -746,11 +792,16 @@ h1{
       .all4 .right{
         margin-top: 100px;
       }
-      .all5 {
-        margin-top: 300px;
-      }
       .all4 .right{
         margin-top: 200px;
+      }
+      .slider .slides .slide{
+        margin-top: 80px;
+        width: 250px;
+      }
+      .slider{
+        width: 259px;
+        height: 350px;
       }
       
 }
@@ -759,8 +810,3 @@ h1{
         margin-right: 100px;
     }
 }
-
-
-
-
-
