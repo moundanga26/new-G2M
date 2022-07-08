@@ -496,6 +496,70 @@ h1{
     width: 85%;
 }
 
+/* section 7 s'abonner */
+
+
+
+.abonner {
+    position: relative;
+    width: 800px;
+    height: 200px;
+    background: #ECEDF3;
+    border-radius: 24px;
+}
+.abonnement {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.section7 {
+    display: flex;
+    padding: 300px;
+}
+.souscrire {
+    height: 30px;
+    width: 75px;
+    border-radius: 5px;
+    background: #F78A22;
+    border: none;
+    font-size: 8px;
+    color: white;
+}
+.email {
+    height: 30px;
+    width: 200px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+}
+.facebook {
+    width: 150px;
+    height: 150px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 48px rgb(0 8 92 / 8%);
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 370px;
+    bottom: -30px;
+}
+.linkedin {
+    width: 150px;
+    height: 150px;
+    background: #FFFFFF;
+    box-shadow: 0px -24px 48px rgb(0 8 92 / 8%);
+    border-radius: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 550px;
+    bottom: 80px;
+}
+.section7-mobile{
+    display: none;
+}
 
 
 
@@ -577,6 +641,7 @@ h1{
     }
     .total{
         display: block;
+        margin-left: 50px;
     }
     
     
@@ -615,7 +680,7 @@ h1{
 @media screen and (max-width:600px) {
     .all2{
         display: block;
-        margin-top: 80%;
+        margin-top: 120%;
     }
     .part2-end .text{
         line-height: 30px;
@@ -810,3 +875,38 @@ h1{
         margin-right: 100px;
     }
 }
+@media screen and (max-width: 600px){
+    .section7 {
+        padding: 300px;
+        display: none;
+    }
+    .section7-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 300px;
+        border-radius: 24px;
+        background-color: #ECEDF3;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .mail {
+        height: 30px;
+        width: 200px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        border: none;
+    }
+    .souscrir {
+        height: 30px;
+        width: 200px;
+        border-radius: 5px;
+        background: #F78A22;
+        border: none;
+        font-size: 8px;
+        color: white;
+    }
+}
+
+
